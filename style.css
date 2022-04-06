@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+    background: rgb(24, 24, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 270px;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+.container1{
+    width: 250px;
+    height: 160px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-top-right-radius: 80px;
+    padding: 20px;
+    background-color: hsl(228, 56%, 26%);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.079), 0 6px 6px rgba(0, 0, 0, 0.083);
+}
+
+.container-caja{
+    padding: 5px;
+}
+
+
+
+.container-imagenes{
+    display: flex;
+    padding: 5px;
+}
+
+.img2, .img3, .img4{
+    width:33px;
+    height: 35px;
+    margin: 20px 10px 10px 0px;
+    background-color: hsl(229, 57%, 11%);
+    padding: 8px;
+    border-radius: 8px;
+    margin-right:12px ;
+}
+
+img{
+    margin: 0 0 0 10px;
+}
+
+.img1{
+    width: 105px;
+}
+
+.container2{
+    margin: 40px 0px 0px 30px;
+    width: 400px;
+    height: 120px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5px;
+    color: hsl(229, 7%, 55%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.079), 0 6px 6px rgba(0, 0, 0, 0.083);
+    padding: 10px;
+}
+
+p{
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(229, 7%, 55%);
+}
+
+.container-caja2{
+   padding: 10px;
+}
+
+.container-caja2 p{
+    margin-bottom: 15px;
+
+}
+
+progress{
+    width: 92%;
+    margin: auto;
+    height: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+progress[value] {
+    appearance: none;
+    -webkit-appearance: none;
+  
+    width: 92%;
+    height: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+progress {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+}
+progress::-webkit-progress-bar {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+}
+progress::-webkit-progress-value {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+}
+progress::-moz-progress-bar {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+}
+
+
+progress[value]::-webkit-progress-bar {
+    background-color: #080c35;
+}
+
+progress[value]::-webkit-progress-value {
+    background: rgb(255,163,153);
+background: linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 89%);
+}
+.container-span{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+span{
+    margin: 8px 0 10px 10px;
+    font-size: 10px;
+    color: white;
+}
+
+
+.container-chico{
+    background-color: aliceblue;
+    position: relative;
+    bottom: 55px;
+    left: 420px;
+    width:120px;
+    height: 55px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius:none ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.079), 0 6px 6px rgba(0, 0, 0, 0.083);
+}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid white;
+    position: relative;
+    left: 395px;
+    bottom: 22px;
+}
+    
+.container-chico p{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.container-chico span{
+    color: rgb(146, 146, 146);
+}
